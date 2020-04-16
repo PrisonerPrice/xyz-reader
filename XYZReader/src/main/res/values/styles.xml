@@ -17,40 +17,13 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar"></style>
-
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@color/theme_primary_dark</item>
-
-        <!-- Original AppCompat attributes. -->
+    <style name="Theme.Bacon" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
         <item name="colorSecondary">@color/theme_secondary</item>
         <item name="android:colorBackground">@color/theme_background</item>
         <item name="colorError">@color/theme_error</item>
-
-        <!-- New MaterialComponents attributes. -->
-        <item name="colorPrimaryVariant">@color/theme_primary_dark</item>
-        <item name="colorSecondaryVariant">@color/theme_secondary_dark</item>
-        <item name="colorSurface">@color/theme_background</item>
-        <item name="colorOnPrimary">@color/theme_background</item>
-        <item name="colorOnSecondary">@color/theme_background</item>
-        <item name="colorOnBackground">@color/theme_background</item>
-        <item name="colorOnError">@color/theme_background</item>
-        <item name="colorOnSurface">@color/theme_background</item>
-        <item name="scrimBackground">@color/mtrl_scrim_color</item>
-        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
-        <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
-        <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
-        <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4</item>
-        <item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5</item>
-        <item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6</item>
-        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
-        <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
-        <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
-        <item name="textAppearanceBody2">@style/TextAppearance.MaterialComponents.Body2</item>
-        <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
-        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button</item>
-        <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
+        <item name="colorAccent">@color/theme_secondary</item>
     </style>
 
 </resources>

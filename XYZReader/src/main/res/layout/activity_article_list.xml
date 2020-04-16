@@ -8,15 +8,16 @@
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/theme_primary"
-        android:fitsSystemWindows="true">
+        android:background="@color/theme_primary">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_marginLeft="@dimen/list_toolbar_side_margin"
             android:layout_marginRight="@dimen/list_toolbar_side_margin"
             android:layout_width="match_parent"
-            android:layout_height="64dp">
+            android:layout_height="64dp"
+            android:background="@color/theme_primary"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary">
 
             <ImageView
                 android:layout_width="wrap_content"

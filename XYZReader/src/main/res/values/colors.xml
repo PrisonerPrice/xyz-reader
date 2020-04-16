@@ -18,8 +18,15 @@
 <resources>
     <color name="photo_placeholder">#ccc</color>
 
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
+    <color name="theme_primary">#ff7043</color>
+    <color name="theme_primary_dark">#c63f17</color>
+    <color name="theme_secondary">#81d4fa</color>
+    <color name="theme_secondary_dark">#4ba3c7</color>
+    <color name="theme_background">#fafafa</color>
+    <color name="theme_background_gray">#e0e0e0</color>
+    <color name="theme_error">#f44336</color>
+
     <color name="ltgray">#ffe0e0e0</color>
+    <color name="text_black">#000000</color>
+    <color name="text_white">#ffffff</color>
 </resources>
